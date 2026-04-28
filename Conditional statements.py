@@ -23,11 +23,11 @@ else:
     print(f"{c}is the largest")
 """
 #WAP to check the posibility of triangle formation and if triangle is formed with the given three sides then identify the types of triangle
-a=float(input("enter length of side 1"))
+"""a=float(input("enter length of side 1"))
 b=float(input("enter length of side 2"))
 c=float(input("enter length of side 3"))
 if a+b>c:
-    print("this triangle is ")
+    print("this triangle is ")"""
 
 
 
