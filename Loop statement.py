@@ -44,9 +44,9 @@ temp=str(num)
 s=0
 l=len(temp)
 for x in temp:
-    s=s+int(x)**1
-    if s==num:
-        print("number is armstrong number")
-    else:
-        print("number is not armstrong number")
+    s=s+int(x)**l
+if s==num:
+    print("number is armstrong number")
+else:
+    print("number is not armstrong number")
 
