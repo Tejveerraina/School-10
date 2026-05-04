@@ -30,15 +30,23 @@ if start%2!=0:
         print(x)
 """
 #wap to check prime number
-start=int(input("Enter number: "))
+"""start=int(input("Enter number: "))
 c=0
 for x in range (1,start+1):
     c=c+1
     if c==2:
         print(start,"is a prime number")
     else:
-        print(start,"is a composite")
+        print(start,"is a composite")"""
 #WAP to test the number entered armstrong or not
-num=int(input("Enter number to be tested"))
-
+num=int(input("Enter number to be tested: "))
+temp=str(num)
+s=0
+l=len(temp)
+for x in temp:
+    s=s+int(x)**1
+    if s==num:
+        print("number is armstrong number")
+    else:
+        print("number is not armstrong number")
 
