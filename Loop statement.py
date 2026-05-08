@@ -39,7 +39,7 @@ for x in range (1,start+1):
     else:
         print(start,"is a composite")"""
 #WAP to test the number entered armstrong or not
-num=int(input("Enter number to be tested: "))
+"""num=int(input("Enter number to be tested: "))
 temp=str(num)
 s=0
 l=len(temp)
@@ -49,4 +49,24 @@ if s==num:
     print("number is armstrong number")
 else:
     print("number is not armstrong number")
+"""
 
+#wap to print first 10 natural numbers
+"""a=int(input("Enter start number: ")) 
+b=int(input("Enter Stop number: "))
+for x in range (a,b+1,1):
+    print(x)"""
+#wap to print first 10 odd numbers
+"""for x in range (1,19+1,2):
+    print(x)
+"""
+#wap to print first 10 odd numbers
+"""for x in range (2,20+1,2):
+    print (x)"""
+#write a program to print first 10 multiples of 5:
+a=int(input("Enter number: "))
+b=int(input("enter number of multiples"))
+s=a*b+1
+for x in range (a,s,a):
+    print(x)
+    
