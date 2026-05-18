@@ -31,3 +31,24 @@ if a+b>c:
 
 
 
+#Basic Menu: Create a loop that displays a menu
+#  (1: Add, 2: Exit)
+#  and uses conditional statements to respond to user input,
+#  repeating until the user selects
+#  'Exit
+
+
+while True:
+    print("\nMenu:")
+    print("1: Add")
+    print("2: Exit")
+    
+    choice = input("Enter your choice: ")
+
+    if choice == '1':
+        print("Action: Item added!")
+    elif choice == '2':
+        print("Exiting program. Goodbye!")
+        break
+    else:
+        print("Invalid choice, please try again.")

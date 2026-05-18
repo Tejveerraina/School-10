@@ -64,9 +64,9 @@ for x in range (a,b+1,1):
 """for x in range (2,20+1,2):
     print (x)"""
 #write a program to print first 10 multiples of 5:
-a=int(input("Enter number: "))
+"""a=int(input("Enter number: "))
 b=int(input("enter number of multiples"))
 s=a*b+1
 for x in range (a,s,a):
     print(x)
-    
+    """

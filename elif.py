@@ -1,20 +1,22 @@
-#wap to calculate the electricity bill 
-a=int(input( "Total units"))
-if a>0 and a<=100:
-    bill=a*5
-elif a>100 and a<=200:
-    bill= 500+((a-100)*7)
-elif a>200 and a<=300:
-    bill= 1200 + ((a-200)*10)
+
+#WAP to find weather a no is prime or not
+num=int(input("no."))
+c=0
+for x in range (1,num+1):
+    if num%x==0:
+        c=c+1
+if c==2:
+    print(num,"prime")
 else:
-    print("Invalid input")
-if bill > 2000:
-    bill= bill * 1.05
-elif a<50:
-    bill= bill -100
+    print(num,"not prime")
 
-print("the total bill is ",bill)
-
+#WAP print all prime no from1 to100
+for x in range (1,101):
+    for i in range(2,x):
+        if (x%i)==0:
+            break
+    else:
+        print(x,end="")
 
 
 
